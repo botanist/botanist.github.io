@@ -34,7 +34,7 @@ body {
 }
 
 .bst-divider {
-    border-top: 2px dashed black;
+    border-top: 2px dashed #ddd;
     margin-bottom: 50px;
 }
 
@@ -64,7 +64,7 @@ body {
 }
 
 .bst-footer {
-    border-top: 2px dashed #999;
+    border-top: 2px dashed #ddd;
     padding-top: 10px;
     font-size: 11pt;
     color: #999;
