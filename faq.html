@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="shortcut icon" href="ico/favicon.ico">
+
+        <title>botani.st - simple, open, modular plantcare</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="css/custom.css" rel="stylesheet">
+
+        <!-- Just for debugging purposes. Don't actually copy this line! -->
+        <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+
+        <!-- Fixed navbar -->
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-collapse collapse">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">
+                                <img alt="Brand" src="/images/logotype-brand.png">
+                              </a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li><a href="/index.html">About</a></li>
+                        <li><a href="/faq.html">FAQ</a></li>
+                        <li><a href="/company.html">Company</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </div>
+
+        <a name="bst-faq"></a>
+        <div id="bst-faq">
+            <div class="container">
+                <h1>Frequently Asked Questions</h1>
+
+                <p class="faq">
+                    <h3>What is the range for the wireless devices?</h3>
+                    In our tests we've got a good 50 m (150 ft) outdoors in direct-line-of-sight conditions and indoors about 20 m thru 
+                    simple stud walls and brick walls.<br><br>
+                    
+                    That might sound a bit short but our system automatically routes traffic via intermediate devices if needed to reach 
+                    its target. So in practice the short range is not a problem. This also lets use a less powerful radio which in 
+                    turn consume less energy and increase battery life.
+                </p>
+
+                <p class="faq">
+                    <h3>How far down is soil moisture measured?</h3>
+                    Both the wireless and wired sensors have a 10 cm probe that is to be completely pushed into the soil. The probe is at 
+                    the bottom of this so we measure between 5 cm and 10 cm down.
+                </p>
+
+                <p class="faq">
+                    <h3>How many sensors do I need?</h3>
+                    With artificial watering soil moisture is very local so to track that you'll need many. Natural light and temperature 
+                    doesn't vary that much tho. However reading light via sensors under foliage can be tricky so we can aggregate light 
+                    measurements from several sensors for a better and more accurate value.
+                </p>                
+                
+                <p class="faq">
+                    <h3>Do the sensors come in different colors?</h3>
+                    We haven't decided yet but probably yes. Let us know what colors you prefer!
+                </p>                
+                
+                <p class="faq">
+                    <h3>How many devices can I have?</h3>
+                    A lot more than you will probably ever need. The radio has a address space for ~65000 devices and them being all hubs 
+                    with each having 64 sensors we're in the 4.2 million region. In practice the limit is likely to be less tho.
+                </p>
+
+                <p class="faq">
+                    <h3>I have an android smartphone, will you support that?</h3>
+                    It's the plan yes. At launch perhaps not.
+                </p>
+
+                <p class="faq">
+                    <h3>Can I control irrigation with this?</h3>
+                    Eventually yes! we're looking at interfacing with existing valve controls as well as providing our own.
+                </p>
+
+                <p class="faq">
+                    <h3>When can I buy this?</h3>
+                    Unfortunately not yet. We're hoping to begin public testing in a few months time and hopefully go into production in 
+                    time for autumn.
+                </p>
+
+                <p class="faq">
+                    <h3>What will it cost?</h3>
+                    Our target is under 10 EUR for the basic wired sensor, a hub 25-30 EUR and likewise for the gateway. Altho the start 
+                    cost may be a slightly larger than similar systems we believe that our hybrid wired/wireless solution is the right way
+                    for low cost-per-plant.
+                </p>
+                
+                <p class="faq">
+                    <h3>I have a question!</h3>
+                    Drop us a line at <a href="mailto:info@botani.st">info@botani.st</a> and we'll try to answer it.
+                </p>
+            </div>
+        </div>
+        <div class="bst-footer">
+            <div class="container">
+                <div class="col-md-6">
+                    <p>                        
+                        <a href="https://twitter.com/botani_st" class="twitter-follow-button" data-show-count="false">Follow @botani_st</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                    </p>
+                </div>
+                <div class="col-md-6" style="text-align: right">
+                    <p>&copy; 2015 botani.st</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>    
+        <script src="/js/jquery.bootstrap-autohidingnavbar.min.js"></script>
+
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-51884350-1', 'botani.st');
+          ga('send', 'pageview');
+
+          $("div.navbar-fixed-top").autoHidingNavbar({ showOnUpscroll: true });
+
+          $("a[href^='#']").on('click', function(e) {
+             // prevent default anchor click behavior
+             e.preventDefault();
+
+             // store hash
+             var hash = this.hash;
+
+             console.log(hash);
+
+             // animate
+             $('html, body').animate({
+                 scrollTop: $(hash).offset().top
+               }, 300, function(){
+
+                 // when done, add hash to url
+                 // (default click behaviour)
+                 window.location.hash = hash;
+               });
+
+          });
+        </script>
+    </body>
+</html>
