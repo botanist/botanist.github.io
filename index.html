@@ -26,199 +26,44 @@
         <![endif]-->
     </head>
     <body>
-
-        <!-- Fixed navbar -->
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container-fluid">
-                <div class="navbar-collapse collapse">
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="/index.html">
-                            <img alt="Brand" src="/images/logotype-brand.png">
-                        </a>
-                    </div>
-                    <ul class="nav navbar-nav">
-                        <li><a href="/index.html">About</a></li>
-                        <li><a href="/faq.html">FAQ</a></li>
-                        <li><a href="/company.html">Company</a></li>
-                    </ul>
-                </div><!--/.nav-collapse -->
+        <div class="container" id="main">
+            <div>
+                <center>
+                    <img src="/images/logotype.png" id="logotype">                
+                </center>
             </div>
-        </div>
-
-        <div id="bst-summary">        
-            <div class="container">
-                <img src="/images/logotype.png">
-                <h1>The gardeners smart assistant</h1>
-                <p>
-                    Technology is not only for humans. Here at botani.st we're working hard to create a simple, 
-                    open and affordable ecosystem for taking care of our green friends. No matter if you only have a few plants
-                    or a whole garden we'll help you take care of them.
-                </p>
-                <p class="summary-notice">
-                    Living in Sweden? Visit our booth <b>C09:63</b> at <a href="http://nordiskatradgardar.se" target="_blank">Nordiska Tr&auml;dg&aring;rdar</a> 26th - 29th of March
-                </p>
+            <p>
+                Tack till alla er som bes&ouml;kte oss p&aring; Nordiska Tr&auml;dg&aring;rdar 2015 och kom med positiv feedback och id&eacute;er.
+                En ny hemsida med mer information &auml;r p&aring; g&aring;ng. Tills dess kontakta oss g&auml;rna p&aring; 
+                <a href="mailto:info@botani.st">info@botani.st</a>,  anm&auml;l dig till v&aring;rt nyhetsbrev nedan eller bl&auml;dra i v&aring;r
+                <a href="folder.pdf">folder</a>.
+            </p>
+            <p>
+                Thanks to all of you who visited our booth at Nordiska Tr&auml;dg&aring;rdar 2015 and had positive feedback and great ideas.
+                A new site with more information vill be finished soon. Until then don't hesitate to contact us at 
+                <a href="mailto:info@botani.st">info@botani.st</a>
+            </p>
+            <center>
+            <div id="signup">
+            <p>
+                <form action="http://signup.botani.st/signup.cgi" method="post" role="form" class="form-inline">
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" style="width: 300px">
+                    <input type="submit" class="btn btn-default" value="Sign up!">
+                  </div>
+                </form>     
+            </p>
             </div>
-        </div>
-        
-        <div class="bst-divider"><a href="#bst-simplicity"><img src="/images/arrow.png"></a></div>
-        
-        <a name="bst-simplicity"></a>
-        <div id="bst-simplicity">
-            <div class="container">
-                <h1>Simplicity is key</h1>
-                <p>
-                    Even if you are not tech-savy getting started with our system is super easy. Our hosted solution<sup>1</sup> is the cheapest 
-                    and simplest way to get started.
-                    
-                    <ol>
-                        <li>Create an account via your browser or our iOS app.</li>
-                        <li>Unpack the gateway and either register your IP-address with us or scan the code on the back from the app or via your browser.</li>
-                        <li>Connect the gateway to your network and it'll associate itself with your setup.
-                        <li style="color: #999">Optionally scan the code on your sensors or hubs to approve them directly. If not, you'll 
-                            be prompted when they request to join your setup.</li>
-                        <li>Put the sensors in the soil and wait for them to start flashing <span class="text-success">green</span>. That 
-                            means they've joined a setup and are ready to start monitoring.</li>
-                    </ol>
-                    
-                        <i>Further configuration, if necessary, can be done via your smartphone/tablet or PC.</i>
-                </p>
-                <p>
-                    Our wired and wireless basic sensors will monitor soil and air temperature, moisture and light conditions regularly. 
-                    We process this data and run the results against the selected target conditions. If 
-                    there's a discrepancy the affected sensor will start flashing in <span class="text-warning">orange</span> or if things 
-                    are really bad in <span class="text-danger">red</span>. If you wish, a notification can also be pushed to your 
-                    smartphone.
-                </p>                    
-                
-                <p>
-                    <sup class="fn" id="fn1">1. [The hosted solution of botani.st requires a working internet connection. Our gateway 
-                        supports both ethernet and WiFi. Every gateway includes one year subscription fee for a basic account]</sup><br/>
-                </p>
-            </div>
+            <p>
+                <a href="http://www.facebook.com/botanistsys"><img src="/images/FB-f-Logo__blue_29.png"></a> &nbsp; 
+                <a href="http://www.twitter.com/botani_st"><img src="/images/twitter.png"></a>
+            </p>
+        </center>
         </div>
 
-        <div class="bst-divider"><a href="#bst-growing"><img src="/images/arrow.png"></a></div>        
-
-        <div id="bst-growing">
+        <div class="footer">
             <div class="container">
-                <h1>Growing your installation</h1>
-                <p>
-                    Start small and grow as needed. All you need is a gateway and one or more sensors or actuators.
-                </p>
-                <div class="indent">
-                <h3>Gateway</h3>
-                <p>
-                    The gateway serves as a connection point to the wireless network our solution uses. It connects to our hosted solution 
-                    but can also be used for extending the range of a local controller. The gateway contains a cache where data is 
-                    temporarily stored if there's a network problem so no data is lost.
-                </p>
-
-                <h3>Hubs</h3>
-                <p>
-                    If you keep your plants in clusters or have a greenhouse and want to keep costs down we provide wired versions of some 
-                    sensors such as the basic one. These connect to our hub which has 8 ports but can be extended to up to 64 ports. Hubs talk 
-                    wirelessly with the gateway or local controller and has a storage to cache readings if contact is lost. Power is 
-                    provided from the built-in battery with solar cells that charges it. There's also a Micro-USB port for external power 
-                    if lots or sensors are connected and the sun isn't enough to charge it.                    
-                <p>
-
-                <h3>Hub extenders</h3>
-                <p>
-                    With the use of a hub extender one port can become eight. This is handy if you have a larger greenhouse where the 
-                    cable to the sensors is too short to reach far aways plants or you don't want many cables lying around in the same 
-                    direction. 
-                </p>
-
-                <h3>Wired basic sensor</h3>
-                <p>
-                    Our basic sensor measures soil moisture, temperature and light. Soil moisture is done via dielectric permittivity. The 
-                    amounts of nutrients or acidity of the soil doesn't affect the reading as much as it does for simpler sensors that 
-                    usually measure electrical conductivity. Temperature is measured both in air and about 3 cm down in the soil. The part 
-                    above ground is about 2.6 cm square and under 1 cm thick so it's tiny enough not to be intrusive.
-                </p>
-
-                <h3>Wireless basic sensor</h3>
-                <p>
-                    The wireless sensor has all the same capabilities as the wired sensor except it's, well, wireless! Since it has a built-in
-                    battery and solar cell to charge it we had to make it a bit bigger measuring about 3 x 4 cm and under a cm thick.
-                </p>
-
-                <h3>Local controller</h3>
-                <p>
-                    If you don't have internet access where you want your setup and still want to run botani.st you'll need to use our 
-                    local controller. It's basically our hosted solution but locally<sup><a href="fn1">1</a></sup>. This also means 
-                    there's no monthly fee for using the system. You can reuse your existing gateways as these will connect to your 
-                    local controller if available and then extend the range.
-                </p>
-                <p>
-                    <sup class="fn" id="fn1">1. [Requires internet access]</sup><br/>
-                </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="bst-divider"><a href="#bst-open"><img src="/images/arrow.png"></a></div>        
-        
-        <div id="bst-open">        
-            <div class="container">
-                <h1>An open platform</h1>
-                <p>
-                    With a background in open source it's important to us that you can use and extend the system for things we haven't 
-                    thought about and access data which is yours. Sensor data, both unprocessed and processed, is simply available via 
-                    HTTP using REST and JSON. 
-                </p>
-                <p>
-                    If you really like hacking you can even build your own sensors and use them with our hubs<sup><a href="fn2">2</a></sup> 
-                    if you want. We'll provide a simple SDK for <a href="http://www.atmel.com">Atmel AVR</a> MCUs that you can use to get 
-                    started quickly<sup><a href="fn2">3</a></sup>.
-                </p>
-                <p>
-                    <sup class="fn" id="fn2">2. [May void your warranty]</sup><br/>
-                    <sup class="fn" id="fn3">3. [Available once we ship]</sup><br/>
-                </p>
-            </div>            
-        </div>
-
-        <div class="bst-divider"><a href="#bst-more"><img src="/images/arrow.png"></a></div>        
-
-        <div id="bst-more">        
-            <div class="container">
-                <h1>Want to know more?</h1>
-                <p>
-                    Follow us on <a href="http://www.twitter.com/botani_st">Twitter</a>, drop us a mail on 
-                    <a href="mailto:info@botani.st">info@botani.st</a> or subscribe to our Facebook page 
-                    <a href="http://www.facebook.com/botanistsys">http://www.facebook.com/botanistsys</a>
-                </p>
-                <p>
-                    You can also sign up below if you want to hear from us when we have more to share.
-                </p>
-                <p>
-                    <form action="http://signup.botani.st/signup.cgi" method="post" role="form">
-                      <div class="form-group">
-                        <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" style="width: 300px">
-                      </div>
-                      <input type="submit" class="btn btn-default" value="Sign up!">
-                    </form>     
-                </p>
-            </div>            
-        </div>
-        
-        <div class="bst-footer">
-            <div class="container">
-                <div class="row">
-                <div class="col-md-6">
-                    <p>                        
-                        <a href="https://twitter.com/botani_st" class="twitter-follow-button" data-show-count="false">Follow @botani_st</a>
-                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-                    </p>
-                </div>
-                <div class="col-md-6" style="text-align: right">
-                    <p>&copy; 2015 botani.st</p>
-                </div>
-                </div>
-                <div class="credits">
-                    Picture of Thai peppers by Daniel Risacher. Licensed under <a class="mw-mmv-license" href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">CC BY-SA 3.0</a>
-                <div>
+                &copy; botani.st 2015
             </div>
         </div>
         

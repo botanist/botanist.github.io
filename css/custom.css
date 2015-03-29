@@ -1,198 +1,27 @@
 body {
-  min-height: 2000px;
   background: white;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 0px;
 }
 
-.navbar {
-    background-color: rgba(0, 0, 0, 0.9);
-    height: 67px;
-    font-size: 24px;
-    border-bottom: 0px;
+#main {
+    padding-top: 40px;
+    width: 500px;
+    font-size: 12pt;
 }
 
-.navbar-nav > li > a {
-    margin-top: 8px;
-}
-
-.navbar-brand {
-    padding: 8px;
-}
-
-.navbar-default .navbar-nav > li > a {
-  color: white;
-
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-  color: #428bca;
-}
-
-.bst-logotype {
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
-
-#bst-summary {
-    background-image: url('/images/bg-summary.jpg');
-    padding-top: 120px;
-    color: black;
-    font-size: 28pt;
-    padding-bottom: 40px;
-    height: 800px;
-    text-align: justify;
-//    text-shadow: 2px 2px 3px black;
-    letter-spacing: 0.15em;
-}
-
-ol, ul {
-    margin-left: 50px;
-    line-height: 1.5em;    
-}
-
-#bst-summary h1 {
-    font-size: 36pt;
-    font-weight: bold;
-}
-
-#bst-summary img {
-    margin: 15px;
-    width: 200px;
-    height: 200px;
-    float: left;
-}
-
-.bst-divider {
-    border-top: 2px solid #ddd;
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-#bst-simplicity {
-    font-size: 13pt;
-    margin-bottom: 100px;
+#main > p {
     text-align: justify;
 }
 
-#bst-growing {
-    font-size: 13pt;
-    margin-bottom: 100px;
-    text-align: justify;
-}
-
-#bst-open {
-    font-size: 13pt;
-    margin-bottom: 100px;
-    text-align: justify;
-}
-
-#bst-more {
-    font-size: 13pt;
-    margin-bottom: 100px;
-    text-align: justify;
-}
-
-#bst-faq {
-    font-size: 13pt;
-    margin-top: 100px;
-    text-align: justify;
-    margin-bottom: 100px;
-}
-
-#bst-faq h3 {
-    color: #666;
-}
-
-#bst-jobs {
-    font-size: 13pt;
-    text-align: justify;
-    margin-bottom: 100px;
-    
-}
-
-#bst-team {
-    font-size: 13pt;
-    margin-top: 100px;
-    text-align: justify;
-}
-
-#bst-team img {
-    vertical-align: top;
-    margin: 20px;
-}
-
-img#claes {
-    float: left;
-}
-
-img#hannes {
-    float: right;
-}
-
-.bst-footer {
-    border-top: 2px solid #ddd;
-    padding-top: 10px;
-    font-size: 11pt;
-    color: #999;
-}
-
-sup.fn {
-    font-style: italic;
-    font-size: 9pt;
-    color: #999;
-}
-
-.text-success {
-    color: white;
-    background-color: #3e3;
-    padding: 3px 10px 8px 10px;
-    text-shadow: 1px 1px 3px black;
-    border-radius: 0.6em;
-}
-
-.text-warning {
-    color: white;
-    background-color: #fb0;
-    padding: 3px 10px 8px 10px;
-    text-shadow: 1px 1px 3px black;
-    border-radius: 0.6em;
-}
-
-.text-danger {
-    color: white;
-    background-color: #e33;
-    padding: 3px 10px 8px 10px;
-    text-shadow: 1px 1px 3px black;
-    border-radius: 0.6em;
-}
-
-div.indent {
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-.summary-notice {
-    background-color: rgba(1, 1, 1, 0.5);
-    padding: 0.5em;
-    font-size: 20pt;
-    border-radius: 0.6em;
+#signup {
     margin-top: 30px;
-    color: white;
+    margin-bottom: 30px;
 }
 
-#bst-summary a {
-    color: white;
-    text-decoration: underline;
-}
-
-p.faq {
-    padding-top: 15px;
-}
-
-.credits {
+.footer {
+    margin-top: 40px;
     text-align: center;
     font-size: 9pt;
-    padding-bottom: 10px;
+    font-style: italic;
 }
