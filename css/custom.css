@@ -3,6 +3,21 @@ body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+body#signup {
+    background-color: #51ae71;
+    padding-top: 40px;
+    color: white;
+}
+
+body#signup > div > p {
+    text-align: center;
+    font-size: 18pt;
+}
+
+#signup-logo {
+    margin-bottom: 20px;
+}
+
 .navbar-wrapper {
   position: absolute;
   top: 0;
@@ -36,7 +51,7 @@ body {
 
 .flag-image {
     height: 24px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
+//    border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .logotype-brand-small {
