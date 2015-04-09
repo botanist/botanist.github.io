@@ -209,7 +209,19 @@ ul.nav-tabs > li > a {
     margin-bottom: 20px;
     font-size: 21px;
     line-height: 1.4;
-  }
+  }  
+}
+
+@media (max-width: 768px) {
+    .nav {
+        background-color: white;
+        color: black;
+        border-radius: 12px;
+    }
+    
+    .nav > li > a {
+        color: black;
+    }
 }
 
 @media (min-width: 992px) {
@@ -227,4 +239,12 @@ p.lead {
 
 .page-tabs {
     margin-top: 40px;
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 48px;
+  height: 4px;
+  background-color: white;
+  border-radius: 1px;
 }
