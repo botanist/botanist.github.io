@@ -542,26 +542,24 @@
                 total += basket[k]
             }
             
-            console.log(total);
             $(".sum-total").text(total);
         }
         
         var k = ["name", "email"];
         $('#preorder-form').submit(function(evt) {
-            evt.preventDefault();
             for (i in k) {
                 var v = k[i]
                 var n = $("#" + v).val().trim()
                 if (!n) {
                     $("#" + v + "-label").addClass("text-danger")
                     $("#" + v).addClass("alert-danger")
+                    evt.preventDefault();
                 }
                 else {
                     $("#" + v + "-label").removeClass("text-danger")
                     $("#" + v).removeClass("alert-danger")            
                 }
             }
-            
         });
     </script>
 </body>
