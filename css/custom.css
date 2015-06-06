@@ -280,3 +280,29 @@ p.input-label {
     font-size: 0.9em;
     padding-bottom: 10px;
 }
+
+
+.corner-ribbon{
+  width: 300px;
+  background: #e43;
+  top: 50px;
+  left: -75px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #f0f0f0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  background: #d43;
+  position: absolute;
+  box-shadow: 0 0 3px rgba(0,0,0,.3);
+  z-index: 1000;
+  
+}
+
+.corner-ribbon a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
