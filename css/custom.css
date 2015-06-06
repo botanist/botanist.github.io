@@ -106,6 +106,12 @@ body#signup > div > p {
     border-bottom: 2px solid #3b7f52;
 }
 
+#preorder-top {
+    height: 90px;
+    background-color: #999;
+    border-bottom: 2px solid #666;
+}
+
 #hardware-top {
     height: 90px;
     background-color: #bf4e8a;
