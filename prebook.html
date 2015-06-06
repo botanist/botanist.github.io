@@ -51,7 +51,7 @@
                         <li><a href="company.en.html">About us</a></li>
                         <li><a href="http://www.facebook.com/botanistsys"><img class="flag-image img-rouded" src="/images/FB-f-Logo__blue_29.png"></a></li>
                         <li><a href="http://www.twitter.com/botani_st"><img class="flag-image img-rouded" src="/images/twitter.png"></a></li>
-                        <li><a href="preorder.se.html"><img src="/images/se.png" class="flag-image img-rounded"></a></li>
+                        <li><a href="prebook.se.html"><img src="/images/se.png" class="flag-image img-rounded"></a></li>
                     </ul>
                     </di>
                 </div>
@@ -60,7 +60,7 @@
     </div>
 
     <!-- Wrap the rest of the page in another container to center all the content. -->
-    <div id="preorder-top">
+    <div id="prebook-top">
     </div>
 
     <div class="page-header container">
@@ -90,7 +90,7 @@
 
         <hr class="featurette-divider">
 
-        <form id="preorder-form" action="http://signup.botani.st/preorder.cgi" method="post" role="form">
+        <form id="prebook-form" action="http://signup.botani.st/prebook.cgi" method="post" role="form">
             
         <div class="row featurette">
             <div class="row">
@@ -556,7 +556,7 @@
         }
         
         var k = ["name", "email"];
-        $('#preorder-form').submit(function(evt) {
+        $('#prebook-form').submit(function(evt) {
             for (i in k) {
                 var v = k[i]
                 var n = $("#" + v).val().trim()

@@ -106,7 +106,7 @@ body#signup > div > p {
     border-bottom: 2px solid #3b7f52;
 }
 
-#preorder-top {
+#prebook-top {
     height: 90px;
     background-color: #999;
     border-bottom: 2px solid #666;
@@ -269,7 +269,7 @@ p.input-label {
   border-radius: 1px;
 }
 
-.preorder-input-num {
+.prebook-input-num {
     min-width: 0;
        width: auto;
        display: inline;
