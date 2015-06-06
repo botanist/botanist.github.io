@@ -268,3 +268,9 @@ p.input-label {
        width: auto;
        display: inline;
 }
+
+.input-details {
+    font-style: italic;
+    font-size: 0.9em;
+    padding-bottom: 10px;
+}
