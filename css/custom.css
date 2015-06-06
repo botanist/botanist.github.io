@@ -237,6 +237,20 @@ p.lead {
     text-align: justify;
 }
 
+p.input-label {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    text-align: right;
+}
+
+@media (min-width: 768px) {
+  p.input-label {
+    font-size: 21px;
+  }
+}
+
 .page-tabs {
     margin-top: 40px;
 }
@@ -247,4 +261,10 @@ p.lead {
   height: 4px;
   background-color: white;
   border-radius: 1px;
+}
+
+.preorder-input-num {
+    min-width: 0;
+       width: auto;
+       display: inline;
 }
