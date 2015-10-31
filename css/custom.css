@@ -313,11 +313,12 @@ p.input-label {
 .corner-ribbon{
   width: 300px;
   background: #e43;
-  top: 50px;
-  left: -75px;
+  top: 40px;
+  left: -85px;
+  font-size: 12px;
   text-align: center;
-  line-height: 50px;
-  letter-spacing: 1px;
+  line-height: 40px;
+  letter-spacing: 2px;
   color: #f0f0f0;
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
