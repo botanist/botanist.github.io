@@ -105,8 +105,9 @@ body#signup > div > p {
 #logotype-brand {
   position: absolute;
   bottom: 20px;
-  top: 120px;
-  width: 20%;
+  top: 80px;
+  left: 12%;
+  width: 200px;
 }
 
 /* Declare heights because of positioning of img element */
