@@ -58,6 +58,7 @@ body#signup > div > p {
     height: 50px;
 }
 
+
 .image-caption {
     font-style: italic;
     font-size: 9pt;
@@ -84,6 +85,28 @@ body#signup > div > p {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
+}
+
+.carousel-caption-intro {
+  position: absolute;
+  right: 20%;
+  top: 90px;
+  bottom: 20px;
+  left: 30%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: justify;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+  font-weight: bold;
+}
+
+#logotype-brand {
+  position: absolute;
+  bottom: 20px;
+  top: 120px;
+  width: 20%;
 }
 
 /* Declare heights because of positioning of img element */
@@ -124,19 +147,24 @@ body#signup > div > p {
     border-bottom: 2px solid #b97032;
 }
 
-#carousel-collect {
+#carousel-intro {
     background-color: #51ae71;
     border-bottom: 2px solid #3b7f52;
 }
 
-#carousel-analyze {
+#carousel-collect {
     background-color: #bf4e8a;
     border-bottom: 2px solid #903b68;
 }
 
-#carousel-act {
-    background-color: #e98e3f;    
+#carousel-analyze {
+    background-color: #e98e3f;
     border-bottom: 2px solid #b97032;
+}
+
+#carousel-act {
+    background-color: #777;    
+    border-bottom: 2px solid #333;
 }
 
 .carousel-control.left {
