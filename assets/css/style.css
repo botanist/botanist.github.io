@@ -1,0 +1,67 @@
+
+.member {
+  text-align: center;
+}
+
+.description {
+  padding-bottom: 1em;
+}
+
+.logo-container .logo {
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid #333333;
+    width: 70px; 
+    float: left;
+}
+
+.logo-container .brand{
+    font-size: 18px;
+    line-height: 20px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+}
+.navbar-transparent .logo-container .brand{
+    color: #FFF;
+}
+.logo-container{
+//    margin-top: 10px;
+}
+.logo-container .logo img{
+    width: 100%;
+}
+.navbar-small .logo-container .brand{
+    color: #333333;
+}
+
+.signup {
+  text-align: middle;
+  width: 50%;
+}
+
+.product {
+  margin-bottom: 150px;
+}
+
+#movie {
+  width: 600px;
+  margin-bottom: 40px;
+  border: 2px solid #333;
+}
+
+.separator-container .separator {
+  color: green;
+}
+
+.separator-container .separator.line-separator:before, .separator-container .separator.line-separator:after {
+  border: 1px solid green;
+}
+
+.project-image-small > img {
+  width: 200px;
+  text-align: center;
+  margin-bottom: 50px;
+}
