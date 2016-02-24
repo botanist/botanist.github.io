@@ -53,15 +53,44 @@
 }
 
 .separator-container .separator {
-  color: green;
+  color: #52ae71;
 }
 
 .separator-container .separator.line-separator:before, .separator-container .separator.line-separator:after {
-  border: 1px solid green;
+  border: 1px solid #52ae71;
 }
 
 .project-image-small > img {
   width: 200px;
   text-align: center;
   margin-bottom: 50px;
+}
+
+.card .icon ~ h3 {
+  margin-top: 5px;
+  margin-bottom: 1em;
+}
+
+.section-we-do-2 .icon {
+  font-size: 75px;
+  line-height: 75px;
+  color: #52ae71;
+  margin-bottom: 10px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  border: 3px solid #52ae71;
+}
+
+.project-content .icon-close:hover {
+  color: #52ae71;
+}
+
+.social-buttons {
+  margin-top: 0px;
+}
+
+#kickstarter {
+  margin-top: 20px;
 }
