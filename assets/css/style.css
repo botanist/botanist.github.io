@@ -94,3 +94,43 @@
 #kickstarter {
   margin-top: 20px;
 }
+
+.project-content .icon-back {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 100;
+  display: block;
+  width: 72px;
+  height: 52px;
+  cursor: pointer;
+  opacity: 0;
+}
+.project-content .icon-back i {
+  font-size: 50px;
+}
+.project-content .icon-back:hover {
+  color: #52ae71;
+}
+
+.project-content .icon-close:hover i {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.project-content.open .icon-back {
+  -webkit-transition: opacity 0.1s;
+  -moz-transition: opacity 0.1s;
+  -o-transition: opacity 0.1s;
+  -ms-transition: opacity 0.1s;
+  transition: opacity 0.1s;
+  -webkit-transition-delay: 1.2s;
+  -moz-transition-delay: 1.2s;
+  -o-transition-delay: 1.2s;
+  -ms-transition-delay: 1.2s;
+  transition-delay: 1.2s;
+  opacity: 1;
+}
