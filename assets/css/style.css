@@ -134,3 +134,7 @@
   transition-delay: 1.2s;
   opacity: 1;
 }
+
+#splash {
+  margin-top: 40px;
+}
