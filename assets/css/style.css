@@ -47,9 +47,9 @@
 }
 
 #movie {
-  width: 600px;
-  margin-bottom: 40px;
+  width: 640px;
   border: 2px solid #333;
+  margin-top: 50px;
 }
 
 .separator-container .separator {
@@ -136,5 +136,31 @@
 }
 
 #splash {
-  margin-top: 40px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.section-quote {
+  background-color: #52ae71;
+  color: white;
+}
+
+.section-quote-2 {
+  background-color: #be4f89;
+  color: white;
+}
+
+
+.quote {
+  font-style: italic;
+}
+
+.quoted-person {
+  text-align: right;
+  font-weight: bold;
+}
+
+.quoted-person a {
+  color: white;
+  text-decoration: underline;
 }
