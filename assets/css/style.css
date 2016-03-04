@@ -47,7 +47,7 @@
 }
 
 #movie {
-  width: 640px;
+  width: 100%;
   border: 2px solid #333;
   margin-top: 50px;
 }
@@ -138,6 +138,7 @@
 #splash {
   margin-top: 80px;
   margin-bottom: 20px;
+  width: 600px;
 }
 
 .section-quote {
@@ -163,4 +164,20 @@
 .quoted-person a {
   color: white;
   text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  #splash {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    width: 704px;
+  }    
+}
+
+@media (max-width: 768px) {
+  #splash {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    width: 90%;
+  }  
 }
