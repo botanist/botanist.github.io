@@ -83,6 +83,10 @@
   margin-top: 20px;
 }
 
+#kickstarter a:hover {
+  background-color: #52ae71;
+}
+
 .project-content .icon-back {
   position: fixed;
   top: 20px;
