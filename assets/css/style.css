@@ -83,8 +83,16 @@
   margin-top: 20px;
 }
 
-#kickstarter a:hover {
-  background-color: #52ae71;
+
+#kickstarter a {
+  background-color: white;
+  color: black;
+}
+
+#kickstarter img {
+  background-color: white;
+  width: 300px;
+  margin-top: 10px;
 }
 
 .project-content .icon-back {
